@@ -1,0 +1,79 @@
+/* Reset de Estilos para remover as margens padrão e o preenchimento do corpo e da lista não ordenada */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Estilo do cabeçalho da página */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilo do conteúdo principal da página */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+main h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+main h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+code {
+    background-color: #f4f4f4;
+    padding: 5px;
+    font-family: Consolas, Monaco, monospace;
+}
+
+/* Estilo do rodapé da página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo dos links no rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
